@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_PCS Tests %28do Not Change%29">
+      <UniqueIdentifier>{c43d2ce2-5120-466f-97df-d980c308dae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="_UnitTest">
+      <UniqueIdentifier>{2bee600e-4caa-424f-ab7e-39915f6634a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Trace">
+      <UniqueIdentifier>{df31e36d-24b6-42b4-a558-18fc49907c76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PCSNode_Test.cpp">
+      <Filter>_PCS Tests %28do Not Change%29</Filter>
+    </ClCompile>
+    <ClCompile Include="PCSNode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PCSTree.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PCSTreeForwardIterator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PCSTreeReverseIterator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>_Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
+      <Filter>_UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="PCSIterator_Test.cpp">
+      <Filter>_PCS Tests %28do Not Change%29</Filter>
+    </ClCompile>
+    <ClCompile Include="PCSTree_Test.cpp">
+      <Filter>_PCS Tests %28do Not Change%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PCSNode.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="PCSTree.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="PCSTreeForwardIterator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="PCSTreeIterator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="PCSTreeReverseIterator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWrapper.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTest.h">
+      <Filter>_UnitTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
